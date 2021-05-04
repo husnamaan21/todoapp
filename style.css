@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   background-color:yellowgreen
+    
+}
+.main{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    flex-direction: column;
+    margin-top: 100px ;
+    
+ 
+ 
+}
+.head{
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height : 80px;
+    
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+.heading{
+    background-color: black;
+}
+span{
+    
+   color:greenyellow;
+   background-color: black;
+}
+.todoApp{
+   
+   
+    width:320px;
+    height:450px;
+    display:flex;
+    justify-content: space-between;
+   
+    /* align-items: center; */
+    background-color: black;
+    color: white;
+    position: relative;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+.same{
+    margin-top : 5%; 
+}
+input{
+    width: 180px;
+    height: 40px;
+    border:none;
+    outline:none;
+ background-color: black;
+    border-bottom: 2px solid white;
+    margin-left: 20px;
+    color:white;
+}
+input::placeholder{
+   color:grey;
+   padding-left: 10px;
+
+}
+button{
+    width:50px;
+    height:30px;
+    background-color: black;
+    border:none;
+    outline:none;
+   
+}
+#list{
+    text-decoration: none;
+    
+    margin-top:25%;
+    /* margin-right: 300px; */
+    background-color: black;
+
+    position: absolute;
+    left:20px;
+ 
+    width: 90%;
+    height: 30px;
+   
+    list-style-type: none;
+}
+#list li{
+    text-decoration: none;
+    padding-left:60px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid white;
+   font-weight: 500;
+   position: relative;
+   background-color: black;
+    
+}
+i{
+ 
+    font-size: 25px;
+     background-color: black;
+}
+.jsbtn{
+    
+    border:none;
+    outline:none;
+
+  margin-left: 19px;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+
+
